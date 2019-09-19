@@ -1,0 +1,26 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		25/25
+
+Compiles and Runs:	15/15
+Correct Output:		6/6
+Consistent Style:	2/2
+Efficiency:			2/2
+
+Good work!  Your program is very clean and well-organized.
+
+For future projects, you will want to start adding comments.
+Everybody does comments slightly differently, but comments
+between the method calls for each verse would have helped
+make the code more readable.
+
+There is one efficiency that could be added.  Notice that
+every time you call Malt2(), you call House2() immediately afterwards.
+Therefore, you could add House2() at the end of your Malt2() method, and
+remove it from the later verses.  Then, you could do the same thing
+with Rat2 (add Malt2() at the end of it), etc.  Your last verse, then
+would just be Maiden1() and Cow2(), and each verse would have just two
+method calls for it.  No points off for that, but something to explore
+for the future.
+
+Great job!
